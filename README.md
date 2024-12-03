@@ -28,7 +28,7 @@ Deploying this boilerplate is seamless and fully optimized for Vercel. You can g
 1. Clone the repository:
 
 ``` bash
-git clone https://github.com/your-repo/boilerplate-ts-2025.git
+git clone https://github.com/pbeltranes/fullstack-ts-boilerplate.git
 ```
 
 2. Install dependencies:
@@ -40,7 +40,7 @@ pnpm install
 3. Configure your environment variables:
 
 * Add a .env file at the root of the project.
-Include the required keys for Supabase and other integrations.
+Include the required keys for [Supabase](https://supabase.com/database) and [other integrations](https://supabase.com/auth).
 * Push to your Vercel-connected repository or use the Vercel CLI to deploy:
 
 ```bash 

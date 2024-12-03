@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate-web-app-2025",
+  "name": "boilerplate-ts-fullstack-2025",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest"
