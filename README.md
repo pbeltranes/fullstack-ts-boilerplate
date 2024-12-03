@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fullstack Boilerplate 2025 🚀
 
-## Getting Started
+This project serves as a boilerplate for fullstack development in TypeScript, designed to streamline the development process with modern tools and best practices. It provides an out-of-the-box setup that integrates key technologies to build scalable and maintainable web applications.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* Fullstack with TypeScript: Modern, typed JavaScript for both client and server.
+* Database Management with Prisma: Simplified data modeling and migrations.
+* Authentication with Supabase: Secure and scalable user authentication.
+* Frontend Powered by Next.js: The React framework for production-grade applications.
+* Styling with Shadcn & Tailwind CSS: Utility-first CSS framework with prebuilt, customizable components.
+* Testing with Vitest: Fast and lightweight unit testing framework.
+* Easy Deployment: Optimized for deployment on Vercel.
+
+## 🛠️ Technologies Used
+| Technology      | Description                                                      |
+|-----------------|------------------------------------------------------------------|
+| Prisma          | Database toolkit for effortless data handling.                   |
+| Next.js         | Framework for server-side rendering and static site generation.  |
+| Supabase Auth   | User authentication and authorization platform.                  |
+| Vitest          | Unit testing library for modern TypeScript/JavaScript.           |
+| Shadcn Tailwind | UI components powered by Tailwind CSS for rapid development.     |
+
+## 🚀 Deployment
+
+Deploying this boilerplate is seamless and fully optimized for Vercel. You can get your application running in just a few steps:
+
+1. Clone the repository:
+
+``` bash
+git clone https://github.com/your-repo/boilerplate-ts-2025.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+``` bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Configure your environment variables:
 
-## Learn More
+* Add a .env file at the root of the project.
+Include the required keys for Supabase and other integrations.
+* Push to your Vercel-connected repository or use the Vercel CLI to deploy:
 
-To learn more about Next.js, take a look at the following resources:
+```bash 
+vercel deploy
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Contributions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to fork this project, open issues, or contribute via pull requests. Your input is invaluable to making this boilerplate better for the community.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the LICENSE file for details.
